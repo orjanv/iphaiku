@@ -1,0 +1,56 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+color: #414141;               /* Dark gray */
+font-size: 18px;
+font-family: 'Droid Serif', serif;
+}
+
+/* Mobile first queries */
+.haiku {margin:0 auto; width: 250px; position:relative; top: 100px;}
+h2 { font-size: 1.5em; text-align: center;}
+p { font-size: 0.8em; text-align: center;}
+
+/* Larger than small mobile screens */
+@media only screen and (min-width: 240px) {
+.haiku {top: 100px; width: 240px; }
+h2 { font-size: 2em; }
+p { font-size: 0.9em; }
+}
+/* Larger than mobile */
+@media only screen and (min-width: 400px) {
+.haiku {top: 100px; width: 400px; }
+h2 { font-size: 3em; }
+p { font-size: 1em; }
+}
+
+/* Larger than phablet */
+@media only screen and (min-width: 550px) {
+.haiku {top: 100px; width: 550px;}
+h2 { font-size: 4em; }
+p { font-size: 1.5em; }
+}
+
+/* Larger than tablet */
+@media only screen and (min-width: 750px) {
+.haiku {top: 100px; width: 750px;}
+h2 { font-size: 5em; }
+p { font-size: 2em; }
+}
+
+/* Larger than desktop */
+@media only screen and (min-width: 1000px) {
+.haiku {top: 100px; width: 1000px;}
+h2 { font-size: 6em; }
+p { font-size: 2.5em; }
+}
+
+/* Larger than Desktop HD */
+@media only screen and (min-width: 1200px) {
+.haiku {top: 200px; width: 1200px;}
+h2 { font-size: 6.5em; }
+p { font-size: 3em; }
+}
